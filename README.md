@@ -19,9 +19,9 @@ as shown here:
   
 3. In hero.h / hero.cpp add a new function for the hero, like:
 
-  void Hero::setName( std::string newName )
-  {
-    name = newName;
-  }
-  
+        void Hero::setName( std::string newName )
+        {
+        name = newName;
+        }
+
   and maybe a setHealth( int newHealth ) function too.
