@@ -5,8 +5,9 @@ This is some cplusplus code I wrote a long time ago when I was learning the lang
 1. In IntroToSTL/map.cpp, I would remove the "using namespace std;" and add the prefix "std::" to all the standard libary stuff ,i.e. replace "map" with "std::map".
 2. IntroToClasses/hero.h needs header guards. At the top of the file it should say:
 
-    #ifndef HERO_H
-    #define HERO_H
+
+        #ifndef HERO_H
+        #define HERO_H
 
 and at the end of the file it should say:
 
