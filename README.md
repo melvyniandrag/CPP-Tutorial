@@ -21,7 +21,7 @@ as shown here:
 
         void Hero::setName( std::string newName )
         {
-        name = newName;
+                name = newName;
         }
 
   and maybe a setHealth( int newHealth ) function too.
