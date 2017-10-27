@@ -1,13 +1,13 @@
 #include <map>
 #include <iostream>
 #include <utility>
-using namespace std;
+
 
 int main(){
-    map<int, double> aMap;
+    std::map<int, double> aMap;
     aMap[1] = 1.00;
     aMap[1] = 2.0; 
-    map<int, double>::iterator anIt = aMap.begin();
-    cout << (*anIt).first << "->" << (*anIt).second << endl;
-    cout << (*aMap.begin()).first << endl;
+    std::map<int, double>::iterator anIt = aMap.begin();
+    std::cout << (*anIt).first << "->" << (*anIt).second << std::endl;
+    std::cout << (*aMap.begin()).first << std::endl;
 }
